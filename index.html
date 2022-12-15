@@ -1,1 +1,34 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1 class="title"> Challenge Week 3 </h1>
+    </div>
+    <div class="content">
+        <div class="content">
+            <span class="descriptors"> Password Length</span>
+            <input type="text" class="inputFields" placeholder="numbers only between 8-128" 
+            id="passwordLength" required>
+        </div>    
+        <span class="descriptors"> Additional Components: </span>
+        <div class="content">
+            <input type="checkbox" id="upperCase" class="checkBox"> Capital Letters <br>
+            <input type="checkbox" id="Special" class="checkBox"> Special Characters <br>
+            <input type="checkbox" id="Numbers" class="checkBox"> Numbers <br>
+            <input type="checkbox" id="lowerCase" class="checkBox"> Lower Case Letters <br>
+        </div> 
+        <button type="button" id="generateButton"> Generate Password </button>
+        <div class="content">
+            <span class="descriptors"> Here is your Password: </span>
+            <p id="answer"> </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
